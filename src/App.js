@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 function generateVideo(index) {
   var videoUrl = `https://stgcicloaventura.blob.core.windows.net/endurance/endurance2023/${index}.mp4`;
