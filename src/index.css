@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.vid-container{
+  padding: 10px;
+  position: relative;
+}
+.vid-container video{
+ 
+    aspect-ratio: 9/16;
+    width: 100%;
+}
+.download-btn{
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
