@@ -8,7 +8,7 @@ function generateVideo(index) {
       </video>
       <a
         className="btn btn-success download-btn"
-        href="https://stgcicloaventura.blob.core.windows.net/endurance/endurance2023/1.mp4"
+        href={videoUrl}
         download={`${index}.mp4`}
       >
         Download
