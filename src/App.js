@@ -1,6 +1,6 @@
 import "./App.css";
 function generateVideo(index) {
-  var videoUrl = `https://stgcicloaventura.blob.core.windows.net/endurance/endurance2023/${index}.mp4`;
+  var videoUrl = `stgcicloaventurapremium.blob.core.windows.net/endurance/endurance2023/${index}.mp4`;
   return (
     <div className="vid-container col-12 col-md-2">
       <video id={`video${index}`}>
