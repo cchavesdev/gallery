@@ -1,0 +1,77 @@
+.relative-container{
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+#banner{
+    background-image: url('https://stgcicloaventura.blob.core.windows.net/endurance/users/banner-img.png');
+    height: 130px;
+    width: 100%;
+    display: block;
+    background-size: cover;
+    position: relative;
+ 
+}
+#blurred{   
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+.banner-text{
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    width: 100%;
+}
+.banner-text h1, .banner-text h2, .banner-text h5{
+    color: #fff;
+    text-align: center;
+    text-transform:  uppercase;
+}
+.banner-text span{
+    color: #20B6B7;
+}
+
+.banner-text p{
+    color: #fff;
+    text-align: center;
+}
+
+
+.profile-picture{
+    position: absolute;
+    top: 90px;
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+    border-radius: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+}
+
+.info-container span{
+    color: #20B6B7;
+    font-weight: bold;
+    padding-right: 10px;
+    width: 120px;
+    padding-left: 6px;
+}
+.info-container  p{
+    margin: 0;
+}
+.info-container hr{
+    margin: 8px;
+}
+
+#emergencyContacts h5{
+    color: #20B6B7;
+    font-weight: bold;
+}
