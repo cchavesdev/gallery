@@ -3,7 +3,7 @@
       "guid":"ad3e4eb1-2274-4769-8487-2c279459f251",  
       "fullName": "Carlos Fabian Chaves Zamora",
       "id": "116110584",
-      "bloodType": "0+",
+      "bloodType": "O+",
       "birthDate": "13/07/1995",
       "lateral": "Derecho",
       "address": "Esparza, Macacona",
@@ -20,15 +20,17 @@
             "phoneNumber": "83710654",
             "relation": "Hermana"
           }
-      ]
+      ],
+      "allergies":["polvo","acaro"],
+      "diseases":["Discopatia", "Lumbalgia"]
     },
     {
         "guid": "ec839c3b-0979-4f27-9c4b-902de94a7533",
         "fullName": "Paola Jimenez Benavides",
         "id": "604250121",
-        "bloodType": "0+",
-        "birthDate": "13/07/1995",
-        "lateral": "derecho",
+        "bloodType": "O+",
+        "birthDate": "27/07/1995",
+        "lateral": "Derecha",
         "address": "Esparza, Macacona",
         "phoneNumber": "85988304",
         "emergencyContacts": [
@@ -36,8 +38,15 @@
             "fullName": "Carlos Fabian Chaves Zamora",
             "phoneNumber": "83710654",
             "relation": "Esposo"
+          },
+          {
+            "fullName": "Jose Arturo Jiménez Jiménez",
+            "phoneNumber": "83366813",
+            "relation": "Padre"
           }
-        ]
+        ],
+        "allergies":["Ninguna"],
+        "diseases":["Ninguna"]
       }
   ]
 

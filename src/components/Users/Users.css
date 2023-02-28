@@ -62,13 +62,20 @@
     font-weight: bold;
     padding-right: 10px;
     width: 120px;
-    padding-left: 6px;
 }
 .info-container  p{
     margin: 0;
 }
+p a {
+    color: #000;
+    cursor: pointer;
+}
+.accordion-button{
+    color: #20B6B7;
+    font-weight: bold;
+}
 .info-container hr{
-    margin: 8px;
+    margin: 8px 0px;
 }
 
 #emergencyContacts h5{
