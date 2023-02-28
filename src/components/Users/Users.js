@@ -1,6 +1,11 @@
 import React from "react";
+import QRCode from "react-qr-code";
 import "./Users.css";
 function Users(props) {
+  
+  const { userData } = props;
+  const userUrl = `https://calm-rock-0b795521e.2.azurestaticapps.net/${userData.guid}`
+  
   function calculateAge(birthday) {
     var birthday_arr = birthday.split("/");
     var birthday_date = new Date(
@@ -12,7 +17,9 @@ function Users(props) {
     var ageDate = new Date(ageDifMs);
     return Math.abs(ageDate.getUTCFullYear() - 1970);
   }
-  const { userData } = props;
+
+  
+
   return (
     <div className="flex-wrap d-flex col-12 justify-content-center">
       <div className="relative-container">
@@ -27,9 +34,24 @@ function Users(props) {
         </div>
         <img
           className="profile-picture"
-          alt="profile-picture"
+          alt="a representation of the user"
           src="https://stgcicloaventura.blob.core.windows.net/endurance/users/116110584.jpeg"
         ></img>
+        <div
+          style={{
+            height: "auto",
+            margin: "0 auto",
+            maxWidth: 64,
+            width: "100%",
+          }}
+        >
+          <QRCode
+            size={256}
+            className="qr-code"
+            value={userUrl}
+            viewBox={`0 0 256 256`}
+          />
+        </div>
       </div>
 
       <div id="" className="col-12 pt-3 pb-3 info-container">
