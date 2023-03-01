@@ -51,7 +51,7 @@ function Users(props) {
         </div>
       </div>
 
-      <div id="" className="col-11 pt-3 info-container">
+      <div id="" className="col-12 pt-3 info-container">
         <div className="d-flex  p-1 flex-wrap">
           <span>Nombre:</span> <p>{userData.fullName}</p>
           <hr className="col-12"></hr>
@@ -87,7 +87,7 @@ function Users(props) {
           <hr className="col-12"></hr>
         </div>
       </div>
-      <div className="col-11">
+      <div className="col-12">
         <div className="accordion accordion-flush" id="accordionFlushExample">
           <div className="accordion-item">
             <h2 className="accordion-header" id="flush-headingOne">
@@ -147,7 +147,7 @@ function Users(props) {
           </div>          
         </div>
       </div>
-      <div className="col-11 info-container pt-3" id="emergencyContacts">
+      <div className="col-12 info-container pt-3" id="emergencyContacts">
         <h5 className="text-center pb-3">Contactos De Emergencia</h5>
         {userData.emergencyContacts.map((contact, index) => {
           return (
