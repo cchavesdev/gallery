@@ -3,6 +3,7 @@ import { getAllUsers } from "./services/userService.js";
 import "./App.css";
 import Users from "./components/Users/Users";
 import VideoGallery from "./components/VideoGallery";
+import HomePage from "./components/HomePage/HomePage.js";
 
 function App() {
   //Generating dyniamic path for each user
@@ -14,8 +15,8 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<VideoGallery />} />
-      
+      <Route path="/asd" element={<VideoGallery />} />
+      <Route path="/" element={<HomePage/>} />
       {usersUrls}
     </Routes>
   );
