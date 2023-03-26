@@ -3,7 +3,7 @@ import { getAllUsers } from "./services/userService.js";
 import "./App.css";
 import Users from "./components/Users/Users";
 import VideoGallery from "./components/VideoGallery";
-import HomePage from "./components/HomePage/HomePage.js";
+import HomePage from "./components/HomePage/HomePage";
 
 function App() {
   //Generating dyniamic path for each user
