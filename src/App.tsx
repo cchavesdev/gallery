@@ -4,6 +4,7 @@ import "./App.css";
 import Users from "./components/Users/Users";
 import VideoGallery from "./components/VideoGallery";
 import HomePage from "./components/HomePage/HomePage";
+import ClubRanking from "./components/ClubRanking/ClubRanking";
 
 function App() {
   //Generating dyniamic path for each user
@@ -17,6 +18,7 @@ function App() {
     <Routes>
       <Route path="/asd" element={<VideoGallery />} />
       <Route path="/" element={<HomePage/>} />
+      <Route path="/ranking" element={<ClubRanking/>} />
       {usersUrls}
     </Routes>
   );
